@@ -1,0 +1,6 @@
+The cosine similarities from the 3 word embedding methods can be seen below.
+The similarity scores are not close to the Simlex999 scores
+        word1       word2  SimLex999     USE    CBOW  word2vec
+568     value      belief       7.07  0.2612  0.0463    0.9748
+492       oil        mink       1.23  0.3136  0.0535    0.9533
+478  attitude  confidence       4.35  0.7212 -0.1538    0.1286
