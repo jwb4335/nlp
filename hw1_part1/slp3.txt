@@ -1,82 +1,70 @@
-#Summary of Contents
-Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .xxiii
-1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
-
-I Words
+Summary of Contents
+1
 2
 3
 4
 5
 6
-
-Regular Expressions and Automata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
-Words & Transducers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
-N-grams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
-Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
-Hidden Markov and Maximum Entropy Models . . . . . . . . . . . . . . . . . . . 173
-
-D
-RA
-FT
-
-II Speech
 7
 8
 9
 10
 11
 
-Phonetics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 215
-Speech Synthesis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249
-Automatic Speech Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 287
-Speech Recognition: Advanced Topics . . . . . . . . . . . . . . . . . . . . . . . . . . . . 337
-Computational Phonology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 365
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Regular Expressions, Text Normalization, Edit Distance . . . . . . . . . 2
+N-gram Language Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+Naive Bayes and Sentiment Classification . . . . . . . . . . . . . . . . . . . . . . . 56
+Logistic Regression . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
+Vector Semantics and Embeddings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+Neural Networks and Neural Language Models . . . . . . . . . . . . . . . . . 123
+Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 143
+Sequence Processing with Recurrent Networks . . . . . . . . . . . . . . . . . . 169
+Encoder-Decoder Models, Attention and Contextual Embeddings 191
+Machine Translation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 202
 
-III Syntax
 12
 13
 14
 15
 16
-
-Formal Grammars of English. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 389
-Parsing with Context-Free Grammars . . . . . . . . . . . . . . . . . . . . . . . . . . . . 431
-Statistical Parsing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 465
-Features and Unification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 495
-Language and Complexity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 537
-
-IV Semantics and Pragmatics
 17
 18
 19
 20
 21
-
-V
-
-Representing Meaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 553
-Computational Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 593
-Lexical Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 627
-Computational Lexical Semantics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 653
-Computational Discourse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 697
-
-Applications
 22
 23
 24
 25
+26
+27
+28
 
-Information Extraction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 741
-Question Answering and Summarization . . . . . . . . . . . . . . . . . . . . . . . . . . 783
-Dialogue and Conversational Agents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 829
-Machine Translation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 879
+Constituency Grammars . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 203
+Constituency Parsing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 232
+Statistical Constituency Parsing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 246
+Dependency Parsing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 273
+Logical Representations of Sentence Meaning . . . . . . . . . . . . . . . . . . . 298
+Computational Semantics and Semantic Parsing . . . . . . . . . . . . . . . . 324
+Information Extraction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 325
+Word Senses and WordNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+Semantic Role Labeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 373
+Lexicons for Sentiment, Affect, and Connotation . . . . . . . . . . . . . . . . 394
+Coreference Resolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 416
+Discourse Coherence. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 443
+Summarization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 465
+Question Answering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 466
+Dialogue Systems and Chatbots . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 487
+Phonetics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 518
+Speech Recognition and Synthesis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 545
 
-Bibliography
-Index
+Appendix
 
-vii
+547
 
-929
-981
+A Hidden Markov Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 548
+
+2
 
 
